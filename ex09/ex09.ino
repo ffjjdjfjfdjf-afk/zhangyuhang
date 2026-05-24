@@ -17,6 +17,7 @@ bool readTouchRaw() {
 
 void handleRoot() {
   const char* html = "<!doctype html>\n"
+    "<html><head><meta charset=\"UTF-8\">\n"
     "<html><head><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
     "<title>实时传感器仪表盘</title>\n"
     "</head><body style=\"font-family:Arial;text-align:center;padding:20px\">\n"
