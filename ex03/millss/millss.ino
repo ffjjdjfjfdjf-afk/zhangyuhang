@@ -1,4 +1,4 @@
-onst int ledPin = 2;
+const int ledPin = 2;
 
 // SOS 闪烁序列（单位：毫秒）
 // 正数=亮，负数=灭，0=序列结束
